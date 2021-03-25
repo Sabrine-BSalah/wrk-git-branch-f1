@@ -1,11 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Sabrine from "./Sabrine";
-import Sarra from "./Sarra";
+import './App.css';
+import Sabrine from './Sabrine';
+import Sarra from './Sarra';
+
 
 function App() {
   return (
     <div className="App">
+      <Sabrine />
       <Sarra />
     </div>
   );
